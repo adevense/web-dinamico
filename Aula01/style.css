@@ -1,0 +1,18 @@
+.container{
+    background-color: grey;
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    justify-content:space-between ;
+    align-items: end;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.filho{
+    background-color: red;
+    width: 60px;
+    height: 60px;
+
+}
