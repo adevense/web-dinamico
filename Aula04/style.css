@@ -240,7 +240,7 @@ nav{
 #div_centro{
     display: grid;
     grid-template-columns: 11% 21% 5% 21% 5% 21% 5% 6% ;
-    grid-template-rows: 5% 30% 5% 55% 5%;
+    grid-template-rows: 5% 30% 5% 50% 10%;
 }
 
 #header_centro{
@@ -275,4 +275,8 @@ nav{
 #circulo{
     background-color: darkblue;
     border-radius: 200px;
+    grid-column: 9;
+    grid-row: 5;
+    width: 70%;
+    height: 95%;
 }
