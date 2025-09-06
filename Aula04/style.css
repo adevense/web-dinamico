@@ -238,5 +238,20 @@ nav{
 }
 
 #div_centro{
-    
+    display: grid;
+    grid-template-columns: 11% 21% 5% 21% 5% 21% 5% 6% ;
+    grid-template-rows: 5% 30% 5% 55% 5%;
+}
+
+#header_centro{
+    background-color: antiquewhite;
+    grid-column: 2/7;
+    grid-row: 2;
+}
+
+.div_centro {
+    background-color: antiquewhite;
+    grid-column: 2;
+    grid-row: 4;
+
 }
