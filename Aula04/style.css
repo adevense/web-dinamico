@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    height: 100px;
+    height: 70px;
     width: 100%;
     background-color: blue;
     display:flex;
@@ -14,7 +14,7 @@ header{
 }
 
 .headerdiv{
-    height: 90px;
+    height: 50px;
     width: 700px;
     background-color: aqua;
     display:flex;
@@ -25,7 +25,7 @@ header{
 }
 
 #headerdiv_direita{
-    height: 90px;
+    height: 50px;
     width: 200px;
     background-color: aqua;
     display:flex;
@@ -36,29 +36,28 @@ header{
 }
 
 .headerdivdiv{
-    height: 60px;
+    height: 30px;
     width: 200px;
-    background-color: blue;
+    background-color: darkblue;
     display:flex;
     }
 
 #headerdivdiv{
-    height: 60px;
+    height: 30px;
     width: 160px;
-    background-color: blue;
+    background-color: darkblue;
     display:flex;
     }
 
 #pos_header{
     /* display: flex; */
-    background-color: ;
-    height: 300px;
+    height: 200px;
     /* align-items: center; */
     /* justify-content: center; */
    
     display: grid;
     box-sizing: border-box;
-    grid-template-rows: 10% 30% 5% 30% 10%;
+    grid-template-rows: 10% 30% 5% 30% ;
     grid-template-columns: 20% 1fr 1% 1fr 1% 1fr 1% 1fr 1% 20%;
 
 
@@ -67,7 +66,7 @@ header{
     }
 
 #pos_header_g{
-    background-color: rgb(255, 0, 200);
+    background-color: blue;
     grid-column:  2/9;
     grid-row: 2;
     /* height: 30%; */
@@ -97,3 +96,118 @@ header{
     grid-column: 8 ;
     grid-row: 4;
 } 
+
+#header2{
+    display: grid;
+    height: 60px;
+    background-color: blue;
+    grid-template-columns: 20% 5% 1% 38% 1% 14% 20%;
+    grid-template-rows: 5% 90% 5%;
+}
+
+#header2_div1{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: darkblue;
+}
+
+#header2_div2{
+    background-color: darkblue;
+    grid-row: 2;
+    grid-column: 4;
+}
+
+#header2_div3{
+    background-color: darkblue;
+    grid-row: 2;
+    grid-column: 6;
+}
+
+#campo_g{
+    height: 628px;
+    display: grid;
+    grid-template-columns: 13%  87%;
+    grid-template-rows: 12% 88%;
+}
+
+nav{
+    background-color: rgb(160, 158, 158);
+    grid-column: 1;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: 3%  94% 3%;
+    grid-template-rows: 1% 2% 1% 5% 1% 5% 1% 5% 1% 5% 1% 5% 1% 5%;
+}
+
+#header3{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+
+    background-color: salmon;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#linha{
+    background-color:rgb(160, 158, 158);
+    height: 20px;
+    width: 250px;
+    gap: 20px;
+}
+
+#linha1{
+
+    height: 10px;
+    width: 10px;
+    gap: 20px;
+}
+
+#linhanav1{
+    background-color: blue;
+
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#linhanav2{
+    background-color: blue;
+
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#linhanav3{
+    background-color: blue;
+
+    grid-row: 6;
+    grid-column: 2;
+}
+
+#linhanav4{
+    background-color: blue;
+
+    grid-row: 8;
+    grid-column: 2;
+}
+
+#linhanav5{
+    background-color: blue;
+
+    grid-row: 10;
+    grid-column: 2;
+}
+
+#linhanav6{
+    background-color: blue;
+
+    grid-row: 12;
+    grid-column: 2;
+}
+
+#linhanav7{
+    background-color: blue;
+
+    grid-row: 14;
+    grid-column: 2;
+}
