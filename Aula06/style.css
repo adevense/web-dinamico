@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transitions {
+    width: 250px;
+    height: 250px;
+    
+    transition: all 2s; 
+    position: relative;
+    z-index: 1; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transitions::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url(subuxa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    opacity: 0; 
+    transition: opacity 2s;
+    z-index: 1; 
+}
+
+
+.transitions:hover {
+    width: 90%;
+    height: 90%;
+
+}
+
+.transitions:hover::after {
+    opacity: 1; 
+}
